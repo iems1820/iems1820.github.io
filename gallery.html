@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles_gallery.css">
+  </head>
+  <body>
+    <div class="full-img" id="fullImgBox">
+      <img src="school_photo/new_i1.jpg" id="fullImg">
+      <span onclick="closeFullImg()">x</span>
+
+    </div>
+    <div class="img-gallery">
+      <img src="school_photo/new_i1.jpg" onclick="openFullImg(this.src)">
+      <img src="school_photo/i2.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i3.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i4.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i5.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i6.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i7.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i8.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i9.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i10.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/new_i11.jpg" onclick="openFullImg(this.src)">
+      <img src="school_photo/i12.jpg" onclick="openFullImg(this.src)">
+      <img src="school_photo/i13.jpg" onclick="openFullImg(this.src)">
+      <img src="school_photo/14.jpg" onclick="openFullImg(this.src)">
+      <img src="school_photo/i15.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i16.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i17.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i18.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i19.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i20.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i21.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i23.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i24.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i25.JPG" onclick="openFullImg(this.src)">
+      <img src="school_photo/i26.JPG" onclick="openFullImg(this.src)">
+
+    </div>
+
+  <script>
+    var fullImgBox=document.getElementById("fullImgBox");
+    var fullImg=document.getElementById("fullImg");
+    function openFullImg(pic){
+      fullImgBox.style.display="flex";
+      fullImg.src=pic;
+    }
+    function closeFullImg(){
+      fullImgBox.style.display="none";
+    }
+
+  </script>
+
+
+  </body>
+</html>
