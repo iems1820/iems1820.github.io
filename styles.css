@@ -131,7 +131,7 @@ p{
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
-    padding: 10px;
+/*     padding: 10px; */
 }
 /* .row{
     margin-top: 5%;
@@ -326,7 +326,7 @@ h3{
 .sub-header{
     height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("background.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("i17.JPG");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -351,9 +351,9 @@ h3{
 .about-col h1{
     padding-top: 0;
 }
-.about-col p{
+/* .about-col p{
     padding: 15px 0 25px;
-}
+} */
 .red-btn{
     border: 1px solid #f44336;
     background: transparent;
